@@ -140,19 +140,19 @@ Buka URL yang ditampilkan Artisan di browser (umumnya `http://127.0.0.1:8000`). 
 
 ## Screenshot tampilan aplikasi
 
-Screenshot yang sudah tersedia di folder `docs/screenshots/` ditampilkan di bawah. Gambar-gambar ini mendokumentasikan tampilan sebelum pembaruan Bootstrap 5, jadi tampilannya mungkin berbeda dari halaman saat ini. Untuk mendokumentasikan tampilan Bootstrap terbaru, ambil screenshot baru dan ganti berkas yang sesuai.
+Screenshot yang sudah tersedia di folder `screenshots/` ditampilkan di bawah. Gambar-gambar ini mendokumentasikan tampilan sebelum pembaruan Bootstrap 5, jadi tampilannya mungkin berbeda dari halaman saat ini. Untuk mendokumentasikan tampilan Bootstrap terbaru, ambil screenshot baru dan ganti berkas yang sesuai.
 
 ### Daftar mahasiswa
 
-![Screenshot halaman daftar mahasiswa](docs/screenshots/daftar-mahasiswa.png)
+![Screenshot halaman daftar mahasiswa](screenshots/daftar-mahasiswa.png)
 
-[Buka file daftar-mahasiswa.png](docs/screenshots/daftar-mahasiswa.png)
+[Buka file daftar-mahasiswa.png](screenshots/daftar-mahasiswa.png)
 
 ### Kalkulator luas segitiga
 
-![Screenshot halaman kalkulator luas segitiga](docs/screenshots/kalkulator-segitiga.png)
+![Screenshot halaman kalkulator luas segitiga](screenshots/kalkulator-segitiga.png)
 
-[Buka file kalkulator-segitiga.png](docs/screenshots/kalkulator-segitiga.png)
+[Buka file kalkulator-segitiga.png](screenshots/kalkulator-segitiga.png)
 
 ## Kesimpulan
 
