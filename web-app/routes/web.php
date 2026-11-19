@@ -5,6 +5,7 @@ use App\Http\Controllers\Web;
 use App\Http\Controllers\Dashboard; 
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\KalkulatorController;
+use App\Http\Controllers\DashboardController;
 /* 
 |-------------------------------------------------------------------------- 
 | Web Routes 
@@ -38,3 +39,7 @@ Route::get('/kalkulator/segitiga', [KalkulatorController::class, 'index'])
 
 Route::post('/kalkulator/segitiga', [KalkulatorController::class, 'hitung'])
     ->name('kalkulator.segitiga.hitung');
+
+// Praktik Sistem Templating
+Route::get('/templating', [DashboardController::class, 'home']);
+Route::get('/gallery', [DashboardController::class, 'gallery']);
