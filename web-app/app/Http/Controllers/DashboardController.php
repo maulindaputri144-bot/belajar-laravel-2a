@@ -18,4 +18,32 @@ class DashboardController extends Controller
 
         return view('gallery', $data);
     }
+
+    public function product()
+    {
+        $data['judul'] = 'Laman Product';
+
+        return view('product', $data);
+    }
+
+    public function service()
+    {
+        $data['judul'] = 'Laman Service';
+
+        return view('service', $data);
+    }
+
+    public function contact()
+    {
+        $data['judul'] = 'Laman Contact';
+
+        return view('contact', $data);
+    }
+
+    public function about()
+    {
+        $data['judul'] = 'Laman About';
+
+        return view('about', $data);
+    }
 }

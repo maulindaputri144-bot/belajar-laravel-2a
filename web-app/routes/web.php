@@ -42,4 +42,8 @@ Route::post('/kalkulator/segitiga', [KalkulatorController::class, 'hitung'])
 
 // Praktik Sistem Templating
 Route::get('/templating', [DashboardController::class, 'home']);
+Route::get('/product', [DashboardController::class, 'product']);
+Route::get('/service', [DashboardController::class, 'service']);
+Route::get('/contact', [DashboardController::class, 'contact']);
+Route::get('/sb-admin/about', [DashboardController::class, 'about']);
 Route::get('/gallery', [DashboardController::class, 'gallery']);
