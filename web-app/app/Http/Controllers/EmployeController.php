@@ -56,4 +56,11 @@ class EmployeController extends Controller
 
         return redirect('/employe');
     }
+
+    public function destroy(Employe $employe)
+    {
+        $employe->delete();
+
+        return redirect('/employe');
+    }
 }

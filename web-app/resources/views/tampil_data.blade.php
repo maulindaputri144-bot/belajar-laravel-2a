@@ -29,6 +29,11 @@
                                 <td>{{ $row->gaji }}</td>
                                 <td>
                                     <a class="btn btn-primary btn-sm" href="/employe/edit/{{ $row->id }}">Edit</a>
+                                    <form action="/employe/{{ $row->id }}" method="POST" class="d-inline">
+                                        @csrf
+                                        @method('delete')
+                                        <button type="submit" class="btn btn-danger btn-sm">Hapus</button>
+                                    </form>
                                 </td>
                             </tr>
                         @endforeach

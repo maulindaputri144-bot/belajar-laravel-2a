@@ -52,4 +52,5 @@ Route::get('/employe/create', [EmployeController::class, 'create']);
 Route::get('/employe/edit/{employe}', [EmployeController::class, 'show']);
 Route::post('/employe/store', [EmployeController::class, 'store']);
 Route::put('/employe/{employe}', [EmployeController::class, 'update']);
+Route::delete('/employe/{employe}', [EmployeController::class, 'destroy']);
 Route::get('/employe', [EmployeController::class, 'index']);
