@@ -5,6 +5,8 @@
 
     <div class="card shadow mb-4">
         <div class="card-body">
+            <a class="btn btn-success mb-3" href="/employe/create">Tambah Data Karyawan</a>
+
             <div class="table-responsive">
                 <table class="table table-bordered">
                     <thead class="thead-light">

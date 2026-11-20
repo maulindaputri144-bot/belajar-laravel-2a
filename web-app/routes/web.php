@@ -48,4 +48,6 @@ Route::get('/service', [DashboardController::class, 'service']);
 Route::get('/contact', [DashboardController::class, 'contact']);
 Route::get('/sb-admin/about', [DashboardController::class, 'about']);
 Route::get('/gallery', [DashboardController::class, 'gallery']);
+Route::get('/employe/create', [EmployeController::class, 'create']);
+Route::post('/employe/store', [EmployeController::class, 'store']);
 Route::get('/employe', [EmployeController::class, 'index']);
