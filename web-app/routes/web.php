@@ -6,6 +6,7 @@ use App\Http\Controllers\Dashboard;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\KalkulatorController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\EmployeController;
 /* 
 |-------------------------------------------------------------------------- 
 | Web Routes 
@@ -47,3 +48,4 @@ Route::get('/service', [DashboardController::class, 'service']);
 Route::get('/contact', [DashboardController::class, 'contact']);
 Route::get('/sb-admin/about', [DashboardController::class, 'about']);
 Route::get('/gallery', [DashboardController::class, 'gallery']);
+Route::get('/employe', [EmployeController::class, 'index']);
