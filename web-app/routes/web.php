@@ -7,6 +7,7 @@ use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\KalkulatorController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\EmployeController;
+use App\Http\Controllers\AdminController;
 /* 
 |-------------------------------------------------------------------------- 
 | Web Routes 
@@ -54,3 +55,9 @@ Route::post('/employe/store', [EmployeController::class, 'store']);
 Route::put('/employe/{employe}', [EmployeController::class, 'update']);
 Route::delete('/employe/{employe}', [EmployeController::class, 'destroy']);
 Route::get('/employe', [EmployeController::class, 'index']);
+Route::get('/admin/create', [AdminController::class, 'create']);
+Route::post('/admin/store', [AdminController::class, 'store']);
+Route::get('/admin/{admin}/edit', [AdminController::class, 'show']);
+Route::put('/admin/{admin}', [AdminController::class, 'update']);
+Route::delete('/admin/{admin}', [AdminController::class, 'destroy']);
+Route::get('/admin', [AdminController::class, 'index']);
