@@ -16,6 +16,7 @@
                             <th>Alamat</th>
                             <th>Gender</th>
                             <th>Gaji</th>
+                            <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -26,6 +27,9 @@
                                 <td>{{ $row->alamat }}</td>
                                 <td>{{ $row->gender }}</td>
                                 <td>{{ $row->gaji }}</td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="/employe/edit/{{ $row->id }}">Edit</a>
+                                </td>
                             </tr>
                         @endforeach
                     </tbody>

@@ -49,5 +49,7 @@ Route::get('/contact', [DashboardController::class, 'contact']);
 Route::get('/sb-admin/about', [DashboardController::class, 'about']);
 Route::get('/gallery', [DashboardController::class, 'gallery']);
 Route::get('/employe/create', [EmployeController::class, 'create']);
+Route::get('/employe/edit/{employe}', [EmployeController::class, 'show']);
 Route::post('/employe/store', [EmployeController::class, 'store']);
+Route::put('/employe/{employe}', [EmployeController::class, 'update']);
 Route::get('/employe', [EmployeController::class, 'index']);
